@@ -1,4 +1,3 @@
-# RAG-based-Chatbot
 # Retrieval-Augmented Generation (RAG) Chatbot with LLaMA3 and Groq
 
 This project implements a **Retrieval-Augmented Generation (RAG) chatbot** that can answer user queries by retrieving context from both **PDF documents** and **web sources**, and then generating precise responses using **Groq LLMs**.

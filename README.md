@@ -52,7 +52,7 @@ Create a .env file in the project root:
          streamlit run app.py
    
   - For PDF-based RAG:
-   ```bash
-      streamlit run llama3.py
+      ```bash
+         streamlit run llama3.py
 
 

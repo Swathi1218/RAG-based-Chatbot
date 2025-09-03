@@ -23,8 +23,6 @@ This project implements a **Retrieval-Augmented Generation (RAG) chatbot** that 
 ├── .env # API keys (not included in repo)
 └── README.md
 
-bash
-Copy code
 
 ## ⚙️ Setup Instructions
 
@@ -32,34 +30,28 @@ Copy code
    ```bash
    git clone https://github.com/yourusername/rag-llama3-groq.git
    cd rag-llama3-groq
-Create a virtual environment (recommended)
+2. **Create a virtual environment (recommended)**
 
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
-Install dependencies
-
-bash
-Copy code
-pip install -r requirements.txt
-Set up environment variables
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # Mac/Linux
+   venv\Scripts\activate      # Windows
+3. **Install dependencies**
+    ```bash 
+    pip install -r requirements.txt
+4. **Set up environment variables**
 Create a .env file in the project root:
+   ```bash
+      env
+      GROQ_API_KEY=your_groq_api_key
+      OPENAI_API_KEY=your_openai_api_key
 
-env
-Copy code
-GROQ_API_KEY=your_groq_api_key
-OPENAI_API_KEY=your_openai_api_key
-Run the app
+5.**Run the app**
+a. For Web-based RAG:
+   ```bash
+      streamlit run app.py
 
-For PDF-based RAG:
+b. For PDF-based RAG:
+```bash
+      streamlit run llama3.py
 
-bash
-Copy code
-streamlit run llama3.py
-For Web-based RAG:
-
-bash
-Copy code
-streamlit run app.py

@@ -47,11 +47,12 @@ Create a .env file in the project root:
       OPENAI_API_KEY=your_openai_api_key
 
 5.**Run the app**
-a. For Web-based RAG:
+   - For Web-based RAG:
+      ```bash
+         streamlit run app.py
+   
+  - For PDF-based RAG:
    ```bash
-      streamlit run app.py
-
-b. For PDF-based RAG:
-```bash
       streamlit run llama3.py
+
 
